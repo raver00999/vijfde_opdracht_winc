@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: blue
+}
+a:hover {
+    color: white;
+}
+body {
+    color: aqua;
+    margin: 50px 100px;
+}
+.black-border {
+    border:5px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+.header-background {
+    background-color: aqua;
+    border-radius: 20px;
+    color: blue;
+    margin-bottom: 20px;
+}
+.header-background ul {
+    margin: 0;
+    padding-top: 20px;
+
+}
+.header-background ul > li{
+    display: inline;
+}
+.main-background {
+    background: black;
+    text-align: center;
+    padding-top: 5px;
+    border: 5px solid aqua;
+    border-radius: 20px;
+    font-size: 35px;
+    font-family: 'Tangerine', cursive;
+}
+.main-link {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+section.section-background > h2 {
+    color: whitesmoke;
+    text-align: center;
+}
+section.section-background ul {
+    color: blue;
+    font-size:35px;
+    font-weight: bold;
+    text-align: left;
+    list-style-image: url("vinkje.png");
+    margin: 0 auto;
+    width: 15%;
+    background-color: aqua;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-style {
+    background-color: aqua;
+    border-radius: 20px;
+}
+footer.footer-style > p {
+    border:5px solid black;
+    color: rgb(43, 123, 138);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.footer-style p {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
